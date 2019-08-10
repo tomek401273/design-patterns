@@ -1,0 +1,17 @@
+I. Interface AtwParts
+1) crate interface AtwParts
+2) crate classes which implement interface AtwParts
+
+II.
+3) create interface AtwVisitor (right now not crate method visit)
+4) add into interface AtwParts method accept(AtvPartVisitor behavioral.visitor);
+5) implements accept method in appropriate class
+6) add in AtwVisitor methods visit(AppropriateClass class)
+7) crate implementation interface AtwVisitor
+
+II.
+8) crate class PartsOrder
+9) create method which add appropriate object to list
+10) add implantation AtwParts inside accept method do:
+  - iteration through list
+  - the same as in previous: behavioral.visitor.visit
